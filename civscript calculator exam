@@ -1,0 +1,35 @@
+
+civscript-engine/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── Makefile
+├── package.json
+├── src/
+│   ├── js/
+│   │   ├── main.js
+│   │   ├── lexer.js
+│   │   ├── parser.js
+│   │   ├── interpreter.js
+│   │   └── engineering.js
+│   └── fortran/
+│       ├── main.f90
+│       ├── civil_core.f90
+│       ├── units.f90
+│       ├── matrices.f90
+│       └── checks.f90
+├── examples/
+│   ├── beam_check.civ
+│   ├── earthwork.civ
+│   └── flow_rate.civ
+├── notebooks/
+│   ├── 01_getting_started.ipynb
+│   ├── 02_structural_basics.ipynb
+│   └── 03_hydraulics.ipynb
+├── tests/
+│   ├── js/
+│   └── fortran/
+└── docs/
+    ├── language_spec.md
+    ├── formulas.md
+    └── validation.md
