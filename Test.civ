@@ -1,0 +1,26 @@
+CivScript v0.1 language notes
+
+Lexical rules
+
+
+One command per line.
+
+Blank lines and lines beginning with # are ignored.
+
+Variable names start with a letter or underscore and then contain letters, digits, or underscores.
+
+Numeric values must be finite JavaScript numbers.
+
+
+Commands
+
+Form	Meaning
+SET name number	Assign a numeric variable
+BEAM_MOMENT load span	Call Fortran backend for a simply supported beam under full-span UDL
+DISPLAY	Print the last computed result
+
+Current limitations
+
+No arithmetic expressions in script files, strings, arrays, loops, functions, user-defined units, or general-purpose execution. Commands are parsed explicitly; script files are not evaluated as JavaScript.
+
+  
